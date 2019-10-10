@@ -1,7 +1,10 @@
+// Hieu Ngo
+// ASU ID: 1207756000
+// basic calculator for CSE 360 class
 package cse360assign2;
 
 public class AddingMachine {
-
+	private String print1 = "0 ";
 	private int total;
 	
 	public AddingMachine (){
@@ -10,35 +13,29 @@ public class AddingMachine {
 	}
 	
 	public int getTotal () {
-		
-		System.out.print(" = "+total);
-		
-		return 0;
+		return total;
 	}
 	
 	public void add (int value) {
-		
-		total= total + value;
-		System.out.print(" + "+value);
-		total = total;
+		total = total + value;
+		print1 = print1 + " + " + value;
 	}
 	
 	public void subtract (int value) {
 		total = total - value;
-		System.out.print(" - "+value);
+		print1 = print1 +" - "+value;
+
 	}
 		
 	public String toString () {
-		System.out.print("0");
-		System.out.print(total);
-		System.out.print(add());
-		return "";
+
+		return print1 + " ";
 	}
 
 	public void clear() {
 		
 		total = 0;
-		System.out.println("\nNew Total: "+total);
+		print1="0";
 	
 	}
 }
