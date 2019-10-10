@@ -12,7 +12,6 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		
 		AddingMachine cal = new AddingMachine();
 		
 		cal.add(4);
