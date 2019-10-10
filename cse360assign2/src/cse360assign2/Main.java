@@ -14,7 +14,6 @@ public class Main {
 		
 		
 		AddingMachine cal = new AddingMachine();
-		int value = 0;
 		
 		cal.add(4);
 		cal.subtract(2);
@@ -23,6 +22,7 @@ public class Main {
 		System.out.print(cal.toString());
 		System.out.print("= "+cal.getTotal()+"\n");
 
+		
 		cal.clear();
 		cal.add(5);
 		cal.subtract(2);
