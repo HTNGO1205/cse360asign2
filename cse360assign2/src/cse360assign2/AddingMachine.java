@@ -5,31 +5,40 @@ public class AddingMachine {
 	private int total;
 	
 	public AddingMachine (){
-		System.out.println("Hello world 1");
+		
 		total = 0;  // not needed - included for clarity
 	}
 	
 	public int getTotal () {
-		System.out.println("Hello world 2");
+		
+		System.out.print(" = "+total);
+		
 		return 0;
 	}
 	
 	public void add (int value) {
-		System.out.println("Hello world 3");
 		
+		total= total + value;
+		System.out.print(" + "+value);
+		total = total;
 	}
 	
 	public void subtract (int value) {
-		System.out.println("Hello world 4");
+		total = total - value;
+		System.out.print(" - "+value);
 	}
 		
 	public String toString () {
-		System.out.println("Hello world 5");
+		System.out.print("0");
+		System.out.print(total);
+		System.out.print(add());
 		return "";
 	}
 
 	public void clear() {
-		System.out.println("Hello world 6");
+		
+		total = 0;
+		System.out.println("\nNew Total: "+total);
 	
 	}
 }

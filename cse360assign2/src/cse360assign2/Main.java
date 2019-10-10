@@ -3,16 +3,20 @@ package cse360assign2;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("Hello world!");
-		AddingMachine add = new AddingMachine();
-		int value = 0;
-		add.getTotal();
-		add.add(value);
-		add.subtract(value);
-		add.toString();
-		add.clear();
 		
+		
+		AddingMachine cal = new AddingMachine();
+		int value = 0;
+		
+		cal.add(4);
+		cal.subtract(2);
+		cal.add(5);
+		cal.getTotal();
+		cal.clear();
+		cal.add(5);
+		cal.subtract(2);
+		cal.add(3);
+		cal.getTotal();
 		
 		
 		
