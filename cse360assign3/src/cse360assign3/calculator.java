@@ -1,3 +1,10 @@
+// Hieu Ngo
+// ASU ID: 1207756000
+// basic calculator for CSE 360 class
+
+
+import java.lang.Math;
+
 package cse360assign3;
 
 public class calculator extends AddingMachine {

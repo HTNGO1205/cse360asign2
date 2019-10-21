@@ -5,9 +5,7 @@
 
 //https://github.com/HTNGO1205/cse360asign2
 
-package cse360assign3;
-
-import java.lang.Math; 
+package cse360assign3; 
 public class AddingMachine {
 	private String print1 = "0 ";
 	private int total;
@@ -31,20 +29,7 @@ public class AddingMachine {
 		print1 = print1 +" - "+value;
 
 	}
-	public void mult(int value) {
-		total = total * value;
-		print1 = print1 + " * "+value;
-	}
-		
-	public void div (int value) {
-		total = total / value;
-		print1 = print1 + " / "+value;
-		
-	}
-	public void power (int value) {
-		total = (int) Math.pow(total , value);
-		print1 = print1 + " ^ " + value;
-	}
+
 	public String toString () {
 
 		return print1 + " ";
