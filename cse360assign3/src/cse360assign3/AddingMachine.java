@@ -7,8 +7,8 @@
 
 package cse360assign3; 
 public class AddingMachine {
-	private String print1 = "0 ";
-	private int total;
+	protected String print1 = "0 ";
+	protected int total;
 	
 	public AddingMachine (){
 		

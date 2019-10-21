@@ -12,7 +12,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		AddingMachine cal = new AddingMachine();
+		calculator cal = new calculator();
+		
 		// ADDITION
 		cal.add(4);
 		cal.subtract(2);
@@ -29,23 +30,23 @@ public class Main {
 		System.out.print("= "+cal.getTotal()+"\n");
 		// MULTIPLICATION
 		cal.clear();
+		cal.add(1);
 		cal.mult(4);
-		cal.div(2);
+		cal.mult(5);
 		cal.getTotal();
 		System.out.print(cal.toString());
 		System.out.print("= "+cal.getTotal()+"\n");
 		// DIVISION
 		cal.clear();
-		cal.add(5);
-		cal.subtract(2);
-		cal.add(3);
+		cal.add(100);
+		cal.div(25);
+		cal.div(2);
 		System.out.print(cal.toString());
 		System.out.print("= "+cal.getTotal()+"\n");
 		// POWER 
 		cal.clear();
 		cal.add(5);
-		cal.subtract(2);
-		cal.add(3);
+		cal.power(5);
 		System.out.print(cal.toString());
 		System.out.print("= "+cal.getTotal()+"\n");
 		
