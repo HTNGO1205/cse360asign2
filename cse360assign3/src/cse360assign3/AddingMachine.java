@@ -7,6 +7,7 @@
 
 package cse360assign3;
 
+import java.lang.Math; 
 public class AddingMachine {
 	private String print1 = "0 ";
 	private int total;
@@ -30,7 +31,20 @@ public class AddingMachine {
 		print1 = print1 +" - "+value;
 
 	}
+	public void mult(int value) {
+		total = total * value;
+		print1 = print1 + " * "+value;
+	}
 		
+	public void div (int value) {
+		total = total / value;
+		print1 = print1 + " / "+value;
+		
+	}
+	public void power (int value) {
+		total = (int) Math.pow(total , value);
+		print1 = print1 + " ^ " + value;
+	}
 	public String toString () {
 
 		return print1 + " ";
