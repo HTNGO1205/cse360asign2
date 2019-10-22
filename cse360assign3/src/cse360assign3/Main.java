@@ -36,11 +36,26 @@ public class Main {
 		cal.getTotal();
 		System.out.print(cal.toString());
 		System.out.print("= "+cal.getTotal()+"\n");
+		// MULTIPLICATION negative
+		cal.clear();
+		cal.add(1);
+		cal.mult(4);
+		cal.mult(-5);
+		cal.getTotal();
+		System.out.print(cal.toString());
+		System.out.print("= "+cal.getTotal()+"\n");
 		// DIVISION
 		cal.clear();
 		cal.add(100);
 		cal.div(25);
 		cal.div(2);
+		System.out.print(cal.toString());
+		System.out.print("= "+cal.getTotal()+"\n");
+		// DIVISION negative
+		cal.clear();
+		cal.add(100);
+		cal.div(25);
+		cal.div(-2);
 		System.out.print(cal.toString());
 		System.out.print("= "+cal.getTotal()+"\n");
 		// POWER 

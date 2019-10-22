@@ -14,7 +14,7 @@ public class calculator extends AddingMachine {
 	
 	public void mult(int value) {
 
-		if (value == 0)
+		if (value <= 0)
 		{
 			total = 0; 
 			print1 = print1 + " * "+value;
@@ -29,7 +29,7 @@ public class calculator extends AddingMachine {
 		
 	public void div (int value) {
 		
-		if (value == 0)
+		if (value <= 0)
 		{
 			total = 0; 
 			print1 = print1 + " / "+value;
