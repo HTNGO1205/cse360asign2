@@ -42,7 +42,7 @@ public class calculator extends AddingMachine {
 	}
 	public void power (int value) {
 		total = (int) Math.pow(total , value);
-		print1 = print1 + " ^ " + value;
+		print1 = print1 + "^" + value;
 	}
 	
 }

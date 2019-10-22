@@ -3,7 +3,7 @@
 // basic calculator for CSE 360 class
 
 
-//https://github.com/HTNGO1205/cse360asign2
+//https://github.com/HTNGO1205/cse360asign2 SAME LINK USED FOR ASSIGNMENT 3 SAME FOLDER BUT DIFFERENT DIRECTORY
 
 package cse360assign3; 
 public class AddingMachine {
